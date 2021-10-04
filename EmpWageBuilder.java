@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class EmpWageBuilder{
 
   public static void main(String[] arg){	
