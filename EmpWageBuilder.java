@@ -14,7 +14,7 @@ public class EmpWageBuilder{
 	int workDays = 20;
 	int totalWorkHours = 100;
 	double monthlyWage = dailyWage*workDays;
-	While(workHoursComp <=100 && workDaysComp == 20){
+	if (workHoursComp ==100 && workDaysComp == 20){
 	System.out.println("Good, you have completed montly working hours and days");
 	System.out.println("Monthly wage of employee is Rs " + df.format(monthlyWage));
     }
